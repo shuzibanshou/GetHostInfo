@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GetHostInfo</class>
+ <widget class="QDialog" name="GetHostInfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>787</width>
+    <height>408</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>GetHostInfo</string>
+  </property>
+  <widget class="QPushButton" name="getHostInfo">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>151</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>QHostInfo获取本机ip</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="getDomainInfo">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>330</y>
+     <width>151</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>QHostInfo反查域名的ip</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="domain">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>270</y>
+     <width>151</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>www.baidu.com</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="showIPv4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>只显示IPv4地址</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="getNetwork1">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>140</y>
+     <width>151</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>QNetworkInterface::allAddresses</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="getNetwork2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>200</y>
+     <width>151</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>QNetworkInterface::allInterfaces</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="content">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>10</y>
+     <width>571</width>
+     <height>341</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
